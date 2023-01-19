@@ -20,7 +20,8 @@
     "react-dom": "18.2.0",
     "react-switch": "^7.0.0",
     "react-use-downloader": "^1.2.1",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "vercel": "^28.12.8"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^2.0.7",
