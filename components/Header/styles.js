@@ -11,6 +11,11 @@ export const Container = styled.div`
 `;
 
 export const DesktopNavBar = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
   a {
     text-decoration: none;
     color: ${(props) => props.theme.colors.text};
@@ -33,6 +38,17 @@ export const DesktopNavBar = styled.div`
   @media (max-width: 1100px) {
     display: none;
   }
+`;
+
+export const LinksContainer = styled.div``;
+
+export const ThemeSwitcherContainer = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 0.5rem;
 `;
 
 export const MobileNavBar = styled.div`
