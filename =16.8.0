@@ -1,0 +1,90 @@
+yarn add v1.22.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info @next/swc-android-arm-eabi@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-android-arm-eabi@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-android-arm-eabi@13.0.6: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-android-arm64@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-android-arm64@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-android-arm64@13.0.6: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-darwin-arm64@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-darwin-arm64@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-darwin-arm64@13.0.6: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-darwin-x64@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-darwin-x64@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-freebsd-x64@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-freebsd-x64@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm-gnueabihf@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-linux-arm-gnueabihf@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm-gnueabihf@13.0.6: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-linux-arm64-gnu@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-linux-arm64-gnu@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm64-gnu@13.0.6: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-linux-arm64-musl@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-linux-arm64-musl@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm64-musl@13.0.6: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-linux-x64-gnu@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-linux-x64-gnu@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-x64-musl@13.0.6: The platform "win32" is incompatible with this module.
+info "@next/swc-linux-x64-musl@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-arm64-msvc@13.0.6: The CPU architecture "x64" is incompatible with this module.
+info "@next/swc-win32-arm64-msvc@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-ia32-msvc@13.0.6: The CPU architecture "x64" is incompatible with this module.
+info "@next/swc-win32-ia32-msvc@13.0.6" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-android-64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-android-64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-android-arm64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-android-arm64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-android-arm64@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-darwin-64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-darwin-64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-darwin-arm64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-darwin-arm64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-darwin-arm64@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-freebsd-64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-freebsd-64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-freebsd-arm64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-freebsd-arm64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-freebsd-arm64@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-32@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-linux-32@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-32@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-linux-64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-linux-arm@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-arm64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-linux-arm64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm64@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-mips64le@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-linux-mips64le@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-mips64le@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-ppc64le@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-linux-ppc64le@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-ppc64le@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-riscv64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-linux-riscv64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-riscv64@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-s390x@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-linux-s390x@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-s390x@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info esbuild-netbsd-64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-netbsd-64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-openbsd-64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-openbsd-64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-sunos-64@0.14.47: The platform "win32" is incompatible with this module.
+info "esbuild-sunos-64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-32@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-windows-32@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-arm64@0.14.47: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-windows-arm64@0.14.47" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ react-is@18.2.0
+info All dependencies
+└─ react-is@18.2.0
+Done in 5.99s.
