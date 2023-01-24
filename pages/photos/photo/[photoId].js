@@ -25,6 +25,8 @@ import {
   AvgColor,
 } from '../../../styles/photoId';
 
+// import bg from '../../../public/img/icon.png'
+
 export async function getServerSideProps(context) {
   const { photoId } = context.query;
 
@@ -54,7 +56,7 @@ export default function Photo(context) {
   return (
     <Container>
       <Head>
-        <title>Photo App - Photo - {photo.id}</title>
+        <title>PhotoApp - Photo - {photo.id}</title>
       </Head>
       <Content>
         <Header>
