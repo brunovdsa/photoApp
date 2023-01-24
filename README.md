@@ -1,49 +1,27 @@
-# **TESTE DE FRONTEND**
+## **Photo App**
 
-Neste teste, você será livre para criar uma aplicação consumindo a API que você quiser e com o tema que desejar.
-Contudo, o seu projeto deverá seguir os requisitos mínimos de conteúdo.
+Projeto de estudo, com intuíto de aprimorar boas práticas em React e no coneceito de Mobile First, e também, adquirir mais conhecimento em styled-components.
 
-SUGESTÕES DE APIS:
-https://github.com/public-apis/public-apis
 
----------------------------------------------------------------------
-## REQUISITOS:
+## 🚀 Tecnologias usadas
+- [React](https://pt-br.reactjs.org)
+- [Node.js](https://nodejs.org/en)
+- [styled-components](https://styled-components.com/)
+- [Pexels API](https://www.pexels.com/api/)
 
-## GIT
-- Faça um fork deste repositório.
-- Criar uma branch para codar as suas features.
-- Criar um pull-request quando o teste for finalizado e submetido.
 
-##### **NOTA: Será avaliado também se o nome da branch, títulos de commit, push e comentários possuem boa legibilidade.**
+## Como executar o projeto
 
------------------------------------------------------
+```
 
-## FRAMEWORK
+Clonar o repositório
+git clone https://github.com/brunovdsa/photoApp
 
-- Utilizar as ferramentas presentes no framework do projeto (NEXT.JS).
+Baixar as dependências
+npm i - yarn
 
------------------------------------------------------
+Executar o servidor
+npm run dev - yarn run dev
 
-## ESTILOS
-
-- Os estilos deste teste devem ser feitos em styled-components (evite utilizar bootstrap, mas se necessário, use).
-- O projeto deverá conter tema claro/escuro e forma do usuário alterar entre os dois.
-- Deve ser totalmente responsivo.
-
------------------------------------------------------
-
-## PROJETO
-
-- Deve utilizar useContext, useState e useEffect.
-- Ter ao menos 3 paginas navegáveis com router (ex: um navbar para facilitar a navegação).
-- Deve consumir uma API de sua escolha, desde que os dados sejam filtraveis e paginados. No mínimo 15 itens por requisição.
-
--------------------------------------------------------
-
-## REQUISITOS DIFERENCIAIS:
-
-- Código tentando seguir SOLID.
-- Código performático.
-- Utilizar inglês no projeto todo.
-- Utilizar Injeção de Dependências.
-- Fazer deploy do mesmo (heroku, netlify, aws, vercel, github pages ou outro da preferência).
+```
+Depois de fazer isso basta acessar o site: http://localhost:3000/
