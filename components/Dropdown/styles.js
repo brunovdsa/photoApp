@@ -26,8 +26,8 @@ export const DropDownHeader = styled.div`
   align-items: center;
   margin-bottom: 0.5rem;
   padding: 0.5rem;
-  box-shadow: 0px 2px 2px 0px hsla(0, 0%, 0%, 0.14),
-    0px 3px 1px -2px hsla(0, 0%, 0%, 0.12), 0px 1px 5px 0px hsla(0, 0%, 0%, 0.2);
+  box-shadow: 0px 2px 2px 0px hsl(0deg 0% 0% / 7%),
+    0px 3px 1px 3px hsl(0deg 0% 0% / 4%), 0px 1px 5px 0px hsl(0deg 0% 0% / 8%);
   font-weight: ${(props) => props.theme.font_weight.bold};
   font-size: ${(props) => props.theme.font_size.sm};
 

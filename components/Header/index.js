@@ -37,8 +37,8 @@ export function Header(props) {
             height={4}
             width={30}
             handleDiameter={15}
-            offColor={colors.text_overlay}
-            onColor={colors.text_overlay}
+            offColor={colors.text}
+            onColor={colors.text}
             offHandleColor={colors.text}
           />
         </ThemeSwitcherContainer>
