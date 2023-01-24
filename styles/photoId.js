@@ -63,13 +63,41 @@ export const ButtonDownload = styled.div`
   margin-bottom: 0.5rem;
   padding: 0.5rem;
 
-  box-shadow: 0px 2px 2px 0px hsl(0deg 0% 0% / 14%),
-    0px 1px 1px -2px hsl(0deg 0% 0% / 12%), 0px 1px 5px 0px hsl(0deg 0% 0% / 5%);
-  font-weight: ${(props) => props.theme.font_weight.bold};
-  font-size: ${(props) => props.theme.font_size.sm};
+  border: 1px solid ${(props) => props.theme.colors.background};
+  color: ${(props) => props.theme.colors.background};
+  background: ${(props) => props.theme.colors.text};
+  gap: 0.3rem;
 
   border-radius: 5px;
+
+  transition: 0.3s;
   cursor: pointer;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: ${(props) => props.theme.colors.background};
+    color: ${(props) => props.theme.colors.text};
+    border: 1px solid ${(props) => props.theme.colors.text};
+  }
+
+  span {
+    font-size: ${(props) => props.theme.font_size.sm};
+    font-weight: ${(props) => props.theme.font_weight.semi_bold};
+
+    padding: 0 0.5rem 0 0;
+    border-right: 1px solid ${(props) => props.theme.colors.background_700};
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-right: 1px solid ${(props) => props.theme.colors.text};
+    }
+
+    @media (min-width: 1100px) {
+      font-size: ${(props) => props.theme.font_size.md};
+    }
+  }
 `;
 
 export const DropDownListContainer = styled.div`
@@ -90,9 +118,11 @@ export const DropDownList = styled.div`
   box-sizing: border-box;
   font-size: 1.3rem;
   font-weight: 500;
+
+  transition: 3s;
 `;
 
-export const Button = styled.div`
+export const SelectPhotoSize = styled.div`
   display: flex;
 
   font-size: ${(props) => props.theme.font_size.xsm};

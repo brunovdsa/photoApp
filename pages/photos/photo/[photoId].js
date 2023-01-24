@@ -14,7 +14,7 @@ import {
   ButtonDownload,
   DropDownListContainer,
   DropDownList,
-  Button,
+  SelectPhotoSize,
   ListItem,
   Content,
   ImgContainer,
@@ -65,51 +65,51 @@ export default function Photo(context) {
 
           <Download>
             <ButtonDownload onClick={toggling}>
-              <Info>Download image</Info>
-              <ChevronDown />
+              <span>Download image</span>
+              <ChevronDown style={{ paddingLeft: '0.3rem' }} />
             </ButtonDownload>
             {isOpen && (
               <DropDownListContainer>
                 <DropDownList>
                   <ListItem>
-                    <Button
+                    <SelectPhotoSize
                       onClick={() => {
                         download(photo.src.original, fileName);
                         toggling();
                       }}
                     >
                       Original
-                    </Button>
+                    </SelectPhotoSize>
                   </ListItem>
                   <ListItem>
-                    <Button
+                    <SelectPhotoSize
                       onClick={() => {
                         download(photo.src.large, fileName);
                         toggling();
                       }}
                     >
                       Large
-                    </Button>
+                    </SelectPhotoSize>
                   </ListItem>
                   <ListItem>
-                    <Button
+                    <SelectPhotoSize
                       onClick={() => {
                         download(photo.src.medium, fileName);
                         toggling();
                       }}
                     >
                       Medium
-                    </Button>
+                    </SelectPhotoSize>
                   </ListItem>
                   <ListItem>
-                    <Button
+                    <SelectPhotoSize
                       onClick={() => {
                         download(photo.src.small, fileName);
                         toggling();
                       }}
                     >
                       Small
-                    </Button>
+                    </SelectPhotoSize>
                   </ListItem>
                 </DropDownList>
               </DropDownListContainer>

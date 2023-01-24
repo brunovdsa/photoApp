@@ -31,6 +31,6 @@ export function SearchIcon() {
   return <FontAwesomeIcon icon={faMagnifyingGlass} />;
 }
 
-export function ChevronDown() {
-  return <FontAwesomeIcon icon={faChevronDown} />;
+export function ChevronDown(props) {
+  return <FontAwesomeIcon icon={faChevronDown} style={props.style} />;
 }
