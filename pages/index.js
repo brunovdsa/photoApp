@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <TitleContainer>
-        <Title>The best stock photos for yout to download.</Title>
+        <Title>The best stock photos for you to download.</Title>
         <Description>Royalty free images shared by creators.</Description>
       </TitleContainer>
       <ButtonContainer>
