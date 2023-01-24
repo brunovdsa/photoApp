@@ -8,6 +8,7 @@ Projeto de estudo, com intuíto de aprimorar boas práticas em React e no conece
 - [Node.js](https://nodejs.org/en)
 - [styled-components](https://styled-components.com/)
 - [Pexels API](https://www.pexels.com/api/)
+- [Next.js](https://nextjs.org/)
 
 
 ## Como executar o projeto
