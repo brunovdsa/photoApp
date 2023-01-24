@@ -84,7 +84,7 @@ export default function Photos({ data }) {
   return (
     <>
       <Head>
-        <title>Photos</title>
+        <title>Photo App - Photos</title>
       </Head>
       <PhotoContainer>
         <DropdownContainer>

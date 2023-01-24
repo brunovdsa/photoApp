@@ -34,7 +34,7 @@ export default function Search() {
   return (
     <div>
       <Head>
-        <title>Search</title>
+        <title>Photo App - Search</title>
       </Head>
       <SearchBar
         search={search}

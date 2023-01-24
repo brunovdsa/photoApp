@@ -54,7 +54,7 @@ export default function Photo(context) {
   return (
     <Container>
       <Head>
-        <title>Photo - {photo.id}</title>
+        <title>Photo App - Photo - {photo.id}</title>
       </Head>
       <Content>
         <Header>

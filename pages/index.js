@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <Container>
       <Head>
-        <title>Home</title>
+        <title>PhotoApp - Home</title>
       </Head>
 
       <TitleContainer>
